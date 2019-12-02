@@ -1,0 +1,17 @@
+.img_carrito{
+    height: 50px;
+    display: block;
+    margin:10px auto
+}
+
+#back-fondo{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 120vh;   
+background: url("../img/back.png");
+background-size: cover;
+overflow: hidden;
+z-index: -1;
+}
