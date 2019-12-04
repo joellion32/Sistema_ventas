@@ -36,7 +36,7 @@
                 <?php while($caja = $cajas->fetch_object()):?>
                 <tr>
                 <td><?=$caja->id?></td>
-                <td><?=$caja->total_venta?></td>
+                <td>$ <?=$caja->total_venta?></td>
                 <td><?=$caja->facturas?></td>
                 <td><?=$caja->vendedor?></td>
                 <td><?=$caja->fecha?></td>

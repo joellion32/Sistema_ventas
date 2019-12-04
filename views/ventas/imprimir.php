@@ -67,6 +67,10 @@
   <th>Total:</th>
   <td>$ <?=$facturas->total_factura?></td>
   </tr>
+  <tr>
+  <th>Total a Devolver:</th>
+  <td>$ <?=$facturas->sobrante?></td>
+  </tr>
 </table>
 </div>
 
